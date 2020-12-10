@@ -36,7 +36,7 @@ function draw() {
     image(video, 0, 0);
 
     image(picture, eyelX - widthOfPicture() / 2, eyelY - heightOfPicture() / 2, widthOfPicture(), heightOfPicture());
-    image(picture, eyerX - widthOfPicture() / 2, eyelY - heightOfPicture() / 2, widthOfPicture(), heightOfPicture());
+    image(picture, eyerX - widthOfPicture() / 2, eyerY - heightOfPicture() / 2, widthOfPicture(), heightOfPicture());
 }
 
 function widthOfPicture() {
