@@ -11,7 +11,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   video = createCapture(VIDEO);
   video.hide();
-  picture = loadImage('./atware.png');
+  picture = loadImage('./sample.png');
 
   poseNet = ml5.poseNet(video, modelReady);
   poseNet.on('pose', gotPoses);
