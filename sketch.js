@@ -20,10 +20,10 @@ function setup() {
 function gotPoses(poses) {
     if (poses.length > 0) {
         let pose = poses[0].pose;
-        eyelX = pose['leftEye'].x;
-        eyelY = pose['leftEye'].y;
-        eyerX = pose['rightEye'].x;
-        eyerY = pose['rightEye'].y;
+        eyelX = pose.leftEye.x;
+        eyelY = pose.leftEye.y;
+        eyerX = pose.rightEye.x;
+        eyerY = pose.rightEye.y;
     }
 }
 
